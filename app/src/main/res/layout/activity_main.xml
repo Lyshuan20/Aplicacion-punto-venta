@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ffff"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="BIENVENIDO"
+        android:textColor="#208dd8"
+        android:textStyle="bold"
+        android:textSize="35sp" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Abre las puertas digitales a tu negocio. Administra tu inventario y ten control de tus ventas."
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textAlignment="center"
+        android:textSize="18sp"/>
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="385dp"
+        android:layout_height="366dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shop" />
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:background="@drawable/button"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Iniciar sesion"
+        android:onClick="irIniciarSesion"
+        android:textColor="#fff"/>
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/sign"
+        android:onClick="irCrearCuenta"
+        android:text="Crear cuenta"
+        android:textColor="#208dd8" />
+
+</LinearLayout>

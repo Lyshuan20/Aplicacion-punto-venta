@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#208dd8"
+    tools:context="HacerVenta.Menu_Productos_Carrito"
+    android:id="@+id/mainCar1">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="34dp"
+                android:text="Lista productos"
+                android:fontFamily="@font/segoebold"
+                android:textColor="#fff"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAllCaps="true"
+                    android:text="VENDEDOR: "
+                    android:fontFamily="@font/segoenormal"
+                    android:textColor="#fff"/>
+                <TextView
+                    android:id="@+id/nameUsuarioV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAllCaps="true"
+                    android:text="Lyshuan"
+                    android:fontFamily="@font/segoenormal"
+                    android:textColor="#fff"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnverVenta"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="#D7E3FF"
+                android:text="Ver Venta"
+                android:textColor="#208dd8"
+                tools:ignore="TextContrastCheck" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:elevation="36dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@drawable/card_back">
+        <LinearLayout
+            android:id="@+id/panel1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/listado_producto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

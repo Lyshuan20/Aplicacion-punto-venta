@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/drawable-v24/button.xml" value="0.1785" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/drawable-v24/sign.xml" value="0.1785" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/drawable/btn2.xml" value="0.123" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/drawable/card_back.xml" value="0.1995" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/drawable/edit_text_back.xml" value="0.1995" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/drawable/et_layout.xml" value="0.1825" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/drawable/ic_add_item.xml" value="0.1" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.1" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/drawable/ic_baseline_list_alt_24.xml" value="0.2055" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/drawable/ic_borrar.xml" value="0.1" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/drawable/ic_lotion_plus.xml" value="0.1785" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/drawable/ic_remove_item.xml" value="0.1" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/drawable/spinner_custom.xml" value="0.1785" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/layout/activity_carrito_venta.xml" value="0.33" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/layout/activity_crear_cuenta.xml" value="0.25" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/layout/activity_dashboard_admin.xml" value="0.25" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/layout/activity_dashboard_normal.xml" value="0.25" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/layout/activity_editar_producto.xml" value="0.25" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/layout/activity_enviar_ayuda.xml" value="0.25" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/layout/activity_iniciar_sesion.xml" value="0.25" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/layout/activity_inventario_admin.xml" value="0.21" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/layout/activity_inventario_normal.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/layout/activity_menu_productos_carrito.xml" value="0.25" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/layout/activity_popup_detalle_venta.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/layout/activity_ver_ventas.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/layout/crear_cuenta.xml" value="0.25" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/layout/item_detalle_ventas.xml" value="0.33" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/layout/item_producto_admin.xml" value="0.33" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/layout/item_producto_carrito.xml" value="0.33" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/layout/item_producto_inventario_admin.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/layout/item_producto_normal.xml" value="0.33" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/layout/item_producto_venta.xml" value="0.25" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/layout/popup_detalle_venta.xml" value="0.31671554252199413" />
+        <entry key="..\:/Users/lyshu/AndroidStudioProjects/ApplicationAkami/app/src/main/res/layout/popup_producto_inventario_admin.xml" value="0.17074275362318841" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

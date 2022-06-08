@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#208dd8"
+    tools:context="Dashboard.Dashboard_Admin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:layout_centerVertical="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="36dp"
+                android:text="Bienvenido"
+                android:fontFamily="@font/segoebold"
+                android:textColor="#fff"/>
+            <TextView
+                android:id="@+id/nusuariotxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textAllCaps="true"
+                android:text="Crea tu cuenta para empezar"
+                android:fontFamily="@font/segoenormal"
+                android:textColor="#fff"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:elevation="36dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@drawable/card_back">
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c1"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#D7E3FF"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/txt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/segoebold"
+                        android:text="Hacer venta"
+                        android:textColor="#208dd8"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt2"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:text="Registra las ventas del dia"
+                        android:textColor="#208dd8"
+                        android:fontFamily="@font/segoenormal"
+                        android:textSize="16dp" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:maxHeight="100dp"
+                        android:src="@drawable/venta" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c2"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#D7E3FF"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/txt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/segoebold"
+                        android:text="Ventas"
+                        android:textColor="#208dd8"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt1"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="@font/segoenormal"
+                        android:text="Ver las ventas"
+                        android:textColor="#208dd8"
+                        android:textSize="16dp" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:maxHeight="100dp"
+                        android:src="@drawable/ventas" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c3"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#D7E3FF"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/txt3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Inventario"
+                        android:textColor="#208dd8"
+                        android:textSize="30sp"
+                        android:fontFamily="@font/segoebold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt3"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:text="Administra el inventario"
+                        android:textColor="#208dd8"
+                        android:fontFamily="@font/segoenormal"
+                        android:textSize="16dp" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:maxHeight="100dp"
+                        android:src="@drawable/inventario" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c4"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#D7E3FF"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/txt4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Ayuda"
+                        android:textColor="#208dd8"
+                        android:textSize="30sp"
+                        android:fontFamily="@font/segoebold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt4"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:text="Envia tu queja o problema"
+                        android:textColor="#208dd8"
+                        android:fontFamily="@font/segoenormal"
+                        android:textSize="16dp"/>
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:maxHeight="100dp"
+                        android:src="@drawable/ayuda" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c5"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

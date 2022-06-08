@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffff"
+    android:gravity="center"
+    tools:context="Inventario.Editar_Producto">
+
+    <ImageView
+        android:layout_width="149dp"
+        android:layout_height="152dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/productos_limpieza" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="EDITAR PRODUCTO"
+        android:textStyle="bold"
+        android:textColor="#208dd8"
+        android:layout_marginTop="10dp"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre Producto:"
+        android:layout_marginTop="15dp"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/nombre_producto"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/sign"
+        android:hint="Nombre producto"
+        android:paddingLeft="20dp"
+        android:textColor="#208dd8" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precio de compra:"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"/>
+    <EditText
+        android:id="@+id/precio_compra"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/sign"
+        android:hint="Precio de compra"
+        android:inputType="number"
+        android:paddingLeft="20dp"
+        android:textColor="#208dd8" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precio de venta:"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"/>
+    <EditText
+        android:id="@+id/precio_venta"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/sign"
+        android:hint="Precio de venta"
+        android:inputType="number"
+        android:paddingLeft="20dp"
+        android:textColor="#208dd8" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cantidad disponible:"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"/>
+    <EditText
+        android:id="@+id/cantidad_producto"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/sign"
+        android:hint="Cantidad disponible"
+        android:inputType="number"
+        android:paddingLeft="20dp"
+        android:textColor="#208dd8" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripción del producto:"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"/>
+    <EditText
+        android:id="@+id/desc_producto"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/sign"
+        android:hint="Descripción de producto"
+        android:paddingLeft="20dp"
+        android:textColor="#208dd8" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Actualizarbtn"
+            android:layout_width="190dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button"
+            android:text="Actualizar"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+</LinearLayout>

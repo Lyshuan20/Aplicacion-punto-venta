@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ffff"
+    tools:context=".EnviarAyuda">
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SOPORTE"
+        android:textColor="#208dd8"
+        android:textStyle="bold"
+        android:textSize="35sp" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="¿Tienes algun problema o queja de la aplicación? envianos tu mensaje."
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textAlignment="center"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/soporte_ayuda" />
+
+    <EditText
+        android:id="@+id/msjW"
+        android:layout_margin="20dp"
+        android:maxLines="50"
+        android:padding="10dp"
+        android:gravity="top"
+        android:hint="Escribe tu mensaje"
+        android:inputType="textMultiLine"
+        android:textColor="#000"
+        android:background="@drawable/et_layout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <Button
+        android:id="@+id/btnEnviarW"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:background="@drawable/button"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Enviar mensaje"
+        android:textColor="#fff"
+        android:layout_marginBottom="25dp"/>
+
+</LinearLayout>

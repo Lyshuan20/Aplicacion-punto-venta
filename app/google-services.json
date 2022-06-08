@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "983015068348",
+    "project_id": "applicationakami",
+    "storage_bucket": "applicationakami.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983015068348:android:d65109b0e6c7cfee0c76b9",
+        "android_client_info": {
+          "package_name": "com.lyshdev.applicationakami"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983015068348-rsngdpc8k3dq3hf9s3gut7d74qvd90dg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMgy9gJCaAC8VWahRgU824HamFHV99aHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983015068348-rsngdpc8k3dq3hf9s3gut7d74qvd90dg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

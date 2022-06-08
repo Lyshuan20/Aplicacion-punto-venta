@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:background="#208dd8"
+    android:gravity="center"
+    tools:context="login.IniciarSesion">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:layout_centerVertical="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="36dp"
+                android:text="Bienvenido"
+                android:fontFamily="@font/segoebold"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Inicia sesion para empezar"
+                android:fontFamily="@font/segoenormal"
+                android:textColor="#fff"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:elevation="36dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@drawable/card_back">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="26dp"
+            android:text="INICIAR SESION"
+            android:fontFamily="@font/segoebold"
+            android:layout_marginTop="36dp"
+            android:layout_marginLeft="48dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true">
+
+            <EditText
+                android:id="@+id/txtUsuarioLogin"
+                android:drawableEnd="@drawable/usuario"
+                android:hint="Ingresa tu usuario"
+                android:textColor="#000"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:fontFamily="@font/segoebold"
+                android:background="@drawable/edit_text_back"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="48dp"/>
+
+            <EditText
+                android:id="@+id/txtContraseñaLogin"
+                android:layout_marginTop="24dp"
+                android:drawableEnd="@drawable/candado"
+                android:hint="Contraseña"
+                android:textColor="#000"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:inputType="textPassword"
+                android:fontFamily="@font/segoebold"
+                android:background="@drawable/edit_text_back"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="48dp"/>
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿Olvidaste tu contraseña?"
+                android:textColor="#208dd8"
+                android:textSize="18dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/IniciarSesionBtn"
+                android:layout_width="320dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/button"
+                android:text="Iniciar Sesion"
+                android:onClick="Login"
+                android:fontFamily="@font/segoebold"
+                android:textColor="#fff" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginBottom="26dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textAlignment="center"
+                android:text="¿No tienes cuenta?"
+                android:fontFamily="@font/segoenormal"
+                android:layout_marginLeft="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:fontFamily="@font/segoenormal"
+                android:onClick="irCrearCuenta"
+                android:text="Create una cuenta"
+                android:textAlignment="center"
+                android:textColor="#208dd8"
+                android:textSize="18dp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
